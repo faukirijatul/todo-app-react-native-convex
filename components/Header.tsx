@@ -22,8 +22,6 @@ const Header = () => {
   const progressPercentage =
     totalTodos > 0 ? (completedTodos / totalTodos) * 100 : 0;
 
-  console.log(todos);
-
   return (
     <View style={homeStyles.header}>
       <View style={homeStyles.titleContainer}>

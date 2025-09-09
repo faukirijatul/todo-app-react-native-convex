@@ -24,7 +24,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 type Todo = Doc<"todos">;
 
 export default function Index() {
-  const { toggleDarkMode, isDarkMode, colors } = useTheme();
+  const { colors } = useTheme();
 
   const [editingId, setEditingId] = useState<Id<"todos"> | null>(null);
   const [editText, setEditText] = useState("");
